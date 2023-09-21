@@ -17,12 +17,14 @@ public class Chef {
 		return nom;
 	}
 	
-	public void parler() {
+	public void parler(String texte) {
 		System.out.println(prendreParole()+"<< "+texte+">>");
 	}
 	
 	public String prendreParole() {
 		return "Le chef " +nom+ " du village " + village.getNom()+" :";
 	}
+	
+	
 
 }
