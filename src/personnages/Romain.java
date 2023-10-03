@@ -32,7 +32,7 @@ public class Romain {
 	
 	public void recevoirCoup(int forceCoup) {
 		assert(force>0):"la force est négative";
-		int force_av=force;
+		int forceAvant=force;
 		force-= forceCoup;
 		if (force>0) {
 			parler("Aïe");
@@ -40,7 +40,7 @@ public class Romain {
 		else {
 			parler("J'abandonne...");
 		}
-		assert(force_av>force):"la force n'a pas diminué";
+		assert(forceAvant>force):"la force n'a pas diminué";
 	}
 	
 	public void sEquiper(Equipement equipement) {
