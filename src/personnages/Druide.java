@@ -23,7 +23,6 @@ public class Druide {
 	
 	public void parler(String texte) {
 		System.out.println(prendreParole()+"<< "+texte+ ">>");
-		
 	}
 	
 	public String prendreParole() {

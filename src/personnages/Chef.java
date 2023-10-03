@@ -30,5 +30,4 @@ public class Chef {
 		romain.recevoirCoup(force/3);
 		
 	}
-
 }
