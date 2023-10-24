@@ -51,7 +51,6 @@ public class Village {
 		//Gaulois gaulois=village.trouverHabitant(30);
 		//si il y a 30 villageois les indices vont de 0 a 29
 		Chef chef=new Chef("Abraracourcix",6,village);
-		village.setChef(chef);
 		Gaulois asterix=new Gaulois("Asterix",8);
 		village.ajouterHabitant(asterix);
 //		Gaulois gaulois=village.trouverHabitant(1);

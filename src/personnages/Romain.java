@@ -46,7 +46,7 @@ public class Romain {
 	public void sEquiper(Equipement equipement) {
 		switch (nbEquipement) {
 		case 2:{
-			System.out.println("le soldat "+getNom()+" est déjà bien protégé");
+			System.out.println("Le soldat "+getNom()+" est déjà bien protégé");
 			break;
 		}
 			

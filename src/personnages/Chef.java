@@ -7,10 +7,10 @@ public class Chef {
 	private Village village;
 	
 	public Chef(String nom, int force, Village village) {
-		super();
 		this.nom = nom;
 		this.force = force;
 		this.village = village;
+		village.setChef(this);
 	}
 	
 	public String getNom() {
